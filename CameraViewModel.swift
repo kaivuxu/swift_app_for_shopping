@@ -76,7 +76,7 @@ class CameraViewModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate
 
         print("🌐 Sending request to Roboflow API...") // Debugging Step
 
-        let url = URL(string: "https://detect.roboflow.com/shop_stock_dataset/1?api_key=ScOeSJPGmXhq78pAXSKj")!
+        let url = URL(string: "https://detect.roboflow.com/shop_stock_dataset/1?api_key=your api roboflow")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
 
