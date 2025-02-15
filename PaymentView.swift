@@ -39,7 +39,7 @@ struct PaymentView: View {
             .padding()
         }
         .onAppear {
-            razorpay = RazorpayCheckout.initWithKey("rzp_test_rlZ55kiLMZVyZT", andDelegate: RazorpayDelegate())
+            razorpay = RazorpayCheckout.initWithKey("your razorpay api key", andDelegate: RazorpayDelegate())
 
         }
     }
