@@ -3,7 +3,7 @@ import UIKit
    
     class RoboflowService {
         private let apiKey = "" // Replace with your actual API Key
-        private let modelEndpoint = ""
+        private let modelEndpoint = "your roboflow model url, shop_stock_dataset is used for this project"
 
         func detectObjects(image: UIImage, completion: @escaping ([DetectedItem]?) -> Void) {
             guard let imageData = image.jpegData(compressionQuality: 0.5) else {
