@@ -2,8 +2,8 @@ import Foundation
 import UIKit
    
     class RoboflowService {
-        private let apiKey = "ScOeSJPGmXhq78pAXSKj" // Replace with your actual API Key
-        private let modelEndpoint = "https://detect.roboflow.com/shop_stock_dataset/1?api_key=ScOeSJPGmXhq78pAXSKj&name=image.jpg"
+        private let apiKey = "" // Replace with your actual API Key
+        private let modelEndpoint = ""
 
         func detectObjects(image: UIImage, completion: @escaping ([DetectedItem]?) -> Void) {
             guard let imageData = image.jpegData(compressionQuality: 0.5) else {
