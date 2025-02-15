@@ -40,7 +40,7 @@ The **Smart Shopping Cart** app is an iOS application built with **Swift (SwiftU
 
 ### 1️⃣ **Clone the Repository**  
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/smart_app_for_shopping.git
+git clone https://github.com/kaivuxu/smart_app_for_shopping.git
 
 2️⃣ Install Dependencies
 Make sure you have Xcode 15+ installed.
