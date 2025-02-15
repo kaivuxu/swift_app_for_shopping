@@ -39,17 +39,19 @@ The **Smart Shopping Cart** app is an iOS application built with **Swift (SwiftU
 ## 🔧 Setup & Installation  
 
 ### 1️⃣ **Clone the Repository**  
-```sh
+
 git clone https://github.com/YOUR_GITHUB_USERNAME/smart_app_for_shopping.git
 
 2️⃣ Install Dependencies
 Make sure you have Xcode 15+ installed.
 Install CocoaPods dependencies (if required):
 pod install
+
 3️⃣ Set Up Firebase
 Create a Firebase project at Firebase Console.
 Enable Authentication (Email/Google Sign-In) and Firestore Database.
 Download the GoogleService-Info.plist and place it in your Xcode project.
+
 4️⃣ Set Up Roboflow API
 Get your API key from Roboflow.
 Replace the placeholder key in CameraViewModel.swift:
